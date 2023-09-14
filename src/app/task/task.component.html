@@ -1,0 +1,12 @@
+<!-- src/app/task/task.component.html -->
+
+<div class="task">
+    <h3>{{ task.title }}</h3>
+    <p>{{ task.description }}</p>
+    <label>
+      <input type="checkbox" [(ngModel)]="task.completed"> Completed
+    </label>
+    <button>Edit</button>
+    <button>Delete</button>    
+  </div>
+  
